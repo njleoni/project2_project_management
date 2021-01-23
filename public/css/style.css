@@ -1,0 +1,22 @@
+body {
+  background-image: url("../img/background1.jpg");
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+}
+
+.logo {
+  height: 70px;
+}
+
+.find {
+  margin-top: 100px;
+}
