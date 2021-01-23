@@ -6,7 +6,7 @@ const Op = Sequelize.Op;
 // Routes
 module.exports = (app) => {
 
-  app.get('/findProject', (req, res) => res.redirect('/findProject'));
+  app.get('/', (req, res) => res.redirect('/all'));
 
 
   // GET route for getting all of the todos
